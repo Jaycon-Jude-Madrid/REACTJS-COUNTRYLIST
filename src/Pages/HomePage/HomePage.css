@@ -1,0 +1,29 @@
+img.loaded {
+  margin-left: 10px;
+}
+.studentSpan {
+  text-decoration: underline skyblue;
+}
+
+@media only screen and (max-width: 600px) {
+  .ReactDevImage {
+    width: 230px;
+    height: 230px;
+  }
+  .ProgrammerLogo {
+    width: 400px;
+    height: 230px;
+  }
+}
+.logo {
+  width: 80%;
+  height: 50px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.logoCellphone {
+  width: 70%;
+  height: 40px;
+  object-fit: contain;
+  cursor: pointer;
+}
